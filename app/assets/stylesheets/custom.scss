@@ -1,0 +1,108 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+body {
+	padding-top: 50px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.center {
+	text-align: center;
+	background-color: white;
+	h1 {
+		margin-bottom: 10px;
+		color: rgb(58, 58, 85);
+	}
+}
+
+/* typography */ 
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+h1 { 
+	font-size: 2.5em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #A52A2A;
+}
+
+h2 {
+	font-size: 1em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	color: rgb(150, 90, 90);
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+/* header */ 
+
+#logo {
+	float: left;
+	margin-right: 10px;
+	font-size: 2em;
+	color: rgba(255, 255, 0, 0.541);
+	text-transform: uppercase;
+	letter-spacing: -1.2px;
+	padding-top: 9px;
+	font-weight: bold;
+	&:hover {
+		color: orange;
+		text-decoration: none;
+	}
+}
+
+/* footer */ 
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+	a {
+		color: #555;
+		&:hover {
+			color: #222;
+			text-decoration: none;
+		}
+	}
+	small {
+		float: left;
+		margin-left: 15px;
+	}
+	ul {
+		float: right;
+		list-style: none;
+		li {
+			float: left;
+			margin-left: 15px;
+			padding-right: 20px;
+		}
+	}
+}
+
+
+
+
+
+/* images */ 
+img {
+	width: 400px;
+	border-radius: 20px;
+}
