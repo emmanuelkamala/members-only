@@ -105,4 +105,8 @@ footer {
 img {
 	width: 400px;
 	border-radius: 20px;
+	border: 8px solid black;
+	&:hover {
+		border: 8px solid darkslategray;
+	}
 }
