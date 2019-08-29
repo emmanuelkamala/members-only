@@ -2,14 +2,15 @@ class PostsController < ApplicationController
 	before_action :logged_in_user,   only:[:new, :create]
 
 	def new
-		@post = Post.new
+		@post = current_user.posts.new
 	end
 
 	def create
-		@post = Post.new(post_params)
-		@user = User.find_by(email: current_user.email.downcase)
+		@post = current_user.posts.build(post_params)
+		# @user = User.find_by(email: current_user.email.downcase)
 		if @post.save
-			@post.update_attribute(:user_id, @user.id)
+			flash[:success] = "Post successfully created."
+			# @post.update_attribute(:user_id, @user.id)
 			redirect_to root_path
 		 else
 			puts @post.errors.messages
