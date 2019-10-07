@@ -54,8 +54,6 @@ Layout/EmptyLinesAroundClassBody:
   Enabled: false
 Layout/BlockAlignment:
   Enabled: false
-Layout/ExtraSpacing:
-  Enabled: false
 Layout/EmptyLinesAroundMethodBody:
   Enabled: false
 Layout/EmptyLineAfterGuardClause:
