@@ -19,3 +19,6 @@ $ rails db:migrate
 
 <a href="https://github.com/emmanuelkamala">Emmanuel Kamala</a><br>
 <a href="https://github.com/Zibilyonik">Onur Surmeli</a>
+
+# Live Version
+<a href="https://members-only-app.herokuapp.com/">Live Version</a>
