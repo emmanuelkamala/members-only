@@ -25,8 +25,7 @@ Style/Documentation:
 Style/ClassAndModuleChildren:
   Enabled: false
 
-Layout/AlignHash:
-  EnforcedColonStyle: key
+
 Layout/ExtraSpacing:
   AllowForAlignment: false
 Layout/MultilineMethodCallIndentation:
@@ -54,6 +53,7 @@ Layout/EmptyLinesAroundClassBody:
   Enabled: false
 Layout/BlockAlignment:
   Enabled: false
+
 Layout/EmptyLinesAroundMethodBody:
   Enabled: false
 Layout/EmptyLineAfterGuardClause:
@@ -91,4 +91,6 @@ Bundler/OrderedGems:
 Lint/UnusedMethodArgument:
   Enabled: false
 Style/ColonMethodCall:
+  Enabled: false
+Layout/AlignHash:
   Enabled: false
