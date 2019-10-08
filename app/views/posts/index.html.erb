@@ -1,0 +1,19 @@
+<% provide(:title, "All posts") %>
+<h1>All posts</h1>
+
+<%= will_paginate %>
+
+<ul class="posts">
+  <% @posts.each do |post| %>
+	  <li>
+			Title: <%= post.title %><br>
+			<% if logged_in? %>
+			  <% user = User.find(post.user_id) %>
+				Author: <%= user.name %><br>
+			<% end %>
+			Post: <%= post.body %>
+		</li><br>
+	<% end %>
+</ul>
+
+<%= will_paginate %>
