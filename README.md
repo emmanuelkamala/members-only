@@ -15,7 +15,7 @@ Next, migrate the database:
 ```
 $ rails db:migrate
 ```
-# Collaborators
+# Authors
 
 <a href="https://github.com/emmanuelkamala">Emmanuel Kamala</a><br>
 <a href="https://github.com/Zibilyonik">Onur Surmeli</a>
